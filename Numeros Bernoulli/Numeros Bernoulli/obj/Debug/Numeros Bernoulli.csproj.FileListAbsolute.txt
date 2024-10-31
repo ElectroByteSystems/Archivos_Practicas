@@ -1,0 +1,10 @@
+C:\Users\Luis\Desktop\Numeros Bernoulli\Numeros Bernoulli\bin\Debug\Numeros Bernoulli.exe.config
+C:\Users\Luis\Desktop\Numeros Bernoulli\Numeros Bernoulli\bin\Debug\Numeros Bernoulli.exe
+C:\Users\Luis\Desktop\Numeros Bernoulli\Numeros Bernoulli\bin\Debug\Numeros Bernoulli.pdb
+C:\Users\Luis\Desktop\Numeros Bernoulli\Numeros Bernoulli\obj\Debug\Numeros Bernoulli.csproj.AssemblyReference.cache
+C:\Users\Luis\Desktop\Numeros Bernoulli\Numeros Bernoulli\obj\Debug\Numeros_Bernoulli.Form1.resources
+C:\Users\Luis\Desktop\Numeros Bernoulli\Numeros Bernoulli\obj\Debug\Numeros_Bernoulli.Properties.Resources.resources
+C:\Users\Luis\Desktop\Numeros Bernoulli\Numeros Bernoulli\obj\Debug\Numeros Bernoulli.csproj.GenerateResource.cache
+C:\Users\Luis\Desktop\Numeros Bernoulli\Numeros Bernoulli\obj\Debug\Numeros Bernoulli.csproj.CoreCompileInputs.cache
+C:\Users\Luis\Desktop\Numeros Bernoulli\Numeros Bernoulli\obj\Debug\Numeros Bernoulli.exe
+C:\Users\Luis\Desktop\Numeros Bernoulli\Numeros Bernoulli\obj\Debug\Numeros Bernoulli.pdb

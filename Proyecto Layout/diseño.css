@@ -1,0 +1,96 @@
+/* Estilos básicos */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0e0e0;
+    color: #333;
+}
+
+/* Encabezado */
+header {
+    background-color: #004400;  /* Verde Kawasaki */
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+    border-bottom: 5px solid #00ff00;  /* Llama la atención con verde neón */
+}
+
+/* Título principal */
+header h1 {
+    font-size: 3.5rem;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+header p {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+/* Contenedor principal usando Grid Layout */
+main {
+    display: grid;
+    justify-content: center;
+    padding: 2rem;
+}
+
+/* Grid para las motos */
+.bike-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));  /* Distribuye los artículos en columnas automáticas */
+    gap: 2rem;
+    max-width: 1200px;
+}
+
+/* Estilo individual de cada moto */
+.bike {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    padding: 1.5rem;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Hover para efecto de zoom */
+.bike:hover {
+    transform: scale(1.05);
+}
+
+/* Imagen de las motos */
+.bike img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Título de cada moto */
+.bike h2 {
+    font-size: 2.5rem;
+    color: #00ff00;  /* Verde brillante Kawasaki */
+    margin-top: 1rem;
+}
+
+/* Modificaciones */
+.bike ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.bike ul li {
+    background-color: #f0f0f0;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border-radius: 5px;
+}
+
+/* Pie de página */
+footer {
+    background-color: #004400;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}

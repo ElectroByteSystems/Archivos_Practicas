@@ -1,0 +1,55 @@
+#titulo {
+    color: tomato;
+}
+p.texto {
+    color: slateblue;
+}
+p.especial {
+    color: blue;
+}
+div p {
+    color: aquamarine;
+}
+div h2, div h3 {
+    color: orangered;
+}
+*{
+    font-size: 24px;
+    color: black;
+}
+/*Esto es un comentario*/
+/*
+.color {
+    color: #ff0000;
+}
+.color {
+    color: rgb(15, 155, 255);
+}
+*/
+.color {
+   /* border: 5px black dotted; */
+    /*
+    dotted
+    dashed
+    solid
+    double
+    groove
+    ridge
+    inset
+    outset
+    none
+    hidden
+    */
+    border-style: solid;
+    border-color: blue;
+    border-radius: 5px;
+    border-width: 5px;
+}
+#fondo {
+    background-color: rgba(255, 0, 0);
+    /* opacity: 1; */
+    height: 400px;
+    background-image: url('Plus.jpeg');
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+}

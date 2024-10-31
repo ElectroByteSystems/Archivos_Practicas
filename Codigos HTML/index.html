@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Primera Web</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <table style="width: 500px;">
+        <thead>
+        <tr>
+            <th>Producto</th>
+            <th>Precio</th>
+        </tr>
+        </thead>
+    <tbody>
+        <tr>
+            <td>Coca-Cola</td>
+            <td>Gratis</td>
+        </tr>
+        <tr>
+            <td>Carro</td>
+            <td>Q.35,000.00</td>
+        </tr>
+        <tr>
+            <td>Casa</td>
+            <td>Q.1,000,000.00</td>
+        </tr>
+    </tbody>
+<tfoot>
+    <td></td>
+    <td>TOTAL: Q.1,035,000.00</td>
+</tfoot>
+    </table>
+    <!-- ul es lista no ordenada -->
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+    </ul>
+    <!-- ol es lista ordenada -->
+    <ol>
+        <li value="16">Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+        <li>
+            <ol>
+                <li style="list-style-type:lower-alpha;">sub elemento 1</li>
+                <li style="list-style-type:lower-alpha;">sub elemento 2</li>
+                <li style="list-style-type:lower-alpha;">sub elemento 3</li>
+            </ol>
+        </li>
+    </ol>
+    <form action="/formulario" method="post">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" placeholder="nombre"/>
+        <br>
+        <label for="apellido">Apellido</label>
+        <input type="text" id="apellido" name="apellido" placeholder="apellido"/>
+        <br>
+        <label for="comentario">comentario</label>
+        <textarea  cols="50"rows="10"id="comentario" placeholder="Ingrese comentario" name="comentario"></textarea>
+        <br>
+        <button type="button">Tipo boton</button>
+        <button type="reset">Tipo reset</button>
+        <button type="submit">Tipo submit</button>
+    </form>
+    <h1> Mi primer heading</h1>
+    <!-- El hr sirve para realizar una separación en nuestra paguina -->
+    <hr>
+    <h2> Mi segundo heading</h2>
+    <h3> Mi tercer heading</h3>
+    <h4> Mi cuarto heading</h4>
+    <h5> Mi quinto heading</h5>
+    <h6> Hola Mundo</h6>
+    <p>Hola mundo.</p>
+    <p>Como estas?</p>
+    <p>
+        Pablito clavo <span style="color:blue">un clavito</span>
+        <!-- EL br sirve para hacer un salto de linea. -->
+        <br>
+        Hola;
+    </p>
+    <a href="https://www.google.com"> Ir a google</a>
+    <hr>
+    <a target="_blank" href="https://www.google.com"> Ir a google</a>
+    <hr>
+    <img src="Plus.jpeg"width="400"/>
+</body>
+</html>

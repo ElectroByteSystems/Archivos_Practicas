@@ -1,0 +1,88 @@
+/* Estilos básicos para el cuerpo */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Estilo del encabezado */
+header {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+    border-bottom: 5px solid #ff6600;
+}
+
+/* Título principal */
+header h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+/* Contenedor principal usando Flexbox */
+main {
+    display: flex;
+    justify-content: center;  /* Alinea el contenido en el centro horizontalmente */
+    padding: 2rem;
+}
+
+/* Flexbox para los coches */
+.car-list {
+    display: flex;
+    flex-wrap: wrap;  /* Permite que los artículos se acomoden en varias filas si es necesario */
+    justify-content: space-around;  /* Espacio igual entre cada coche */
+    max-width: 1200px;
+}
+
+/* Estilo individual de los coches */
+.car {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 1rem;
+    padding: 1rem;
+    width: 300px;  /* Cada coche tiene el mismo ancho */
+    text-align: center;
+}
+
+/* Imagen de los coches */
+.car img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Títulos de los coches */
+.car h2 {
+    font-size: 2rem;
+    color: #ff6600;
+}
+
+/* Listas de modificaciones */
+.car ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.car ul li {
+    background-color: #f0f0f0;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border-radius: 5px;
+}
+
+/* Estilo del pie de página */
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}

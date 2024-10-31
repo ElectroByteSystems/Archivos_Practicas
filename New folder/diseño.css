@@ -1,0 +1,81 @@
+/* General */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Encabezado */
+header {
+    background-color: #4CAF50;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+/* Secciones */
+section {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#nodejs {
+    background-color: #2E86C1;
+    color: white;
+}
+
+#java-vs-js {
+    background-color: #F39C12;
+    color: white;
+}
+
+#johnny-five {
+    background-color: #8E44AD;
+    color: white;
+}
+
+/* Títulos de Secciones */
+section h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+/* Párrafos */
+section p {
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+
+/* Lista */
+ul {
+    list-style-type: square;
+    font-size: 1.2em;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Pie de Página */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer strong {
+    color: #FFD700;
+}
