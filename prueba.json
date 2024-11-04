@@ -1,0 +1,331 @@
+{
+    "continentes": {
+      "continente": [
+        {
+          "nombre": "América",
+          "pais": [
+            {
+              "nombre": "Estados Unidos",
+              "capital": "Washington D.C.",
+              "poblacion": 331002651,
+              "PIB": 65000
+            },
+            {
+              "nombre": "Brasil",
+              "capital": "Brasilia",
+              "poblacion": 212559417,
+              "PIB": 9000
+            },
+            {
+              "nombre": "Canadá",
+              "capital": "Ottawa",
+              "poblacion": 37742154,
+              "PIB": 46000
+            },
+            {
+              "nombre": "Argentina",
+              "capital": "Buenos Aires",
+              "poblacion": 45195774,
+              "PIB": 10500
+            },
+            {
+              "nombre": "Chile",
+              "capital": "Santiago",
+              "poblacion": 19116201,
+              "PIB": 15000
+            },
+            {
+              "nombre": "Colombia",
+              "capital": "Bogotá",
+              "poblacion": 50882891,
+              "PIB": 6000
+            },
+            {
+              "nombre": "México",
+              "capital": "Ciudad de México",
+              "poblacion": 128932753,
+              "PIB": 10000
+            },
+            {
+              "nombre": "Perú",
+              "capital": "Lima",
+              "poblacion": 32971854,
+              "PIB": 7000
+            },
+            {
+              "nombre": "Uruguay",
+              "capital": "Montevideo",
+              "poblacion": 3473730,
+              "PIB": 18000
+            },
+            {
+              "nombre": "Venezuela",
+              "capital": "Caracas",
+              "poblacion": 28435940,
+              "PIB": 5000
+            }
+          ]
+        },
+        {
+          "nombre": "Europa",
+          "pais": [
+            {
+              "nombre": "Luxemburgo",
+              "capital": "Luxemburgo",
+              "poblacion": 634000,
+              "PIB": 132676
+            },
+            {
+              "nombre": "Irlanda",
+              "capital": "Dublín",
+              "poblacion": 5000000,
+              "PIB": 102394
+            },
+            {
+              "nombre": "Noruega",
+              "capital": "Oslo",
+              "poblacion": 5400000,
+              "PIB": 82438
+            },
+            {
+              "nombre": "Suiza",
+              "capital": "Berna",
+              "poblacion": 86000000000,
+              "PIB": 81867
+            },
+            {
+              "nombre": "Dinamarca",
+              "capital": "Copenhague",
+              "poblacion": 5800000,
+              "PIB": 67218
+            },
+            {
+              "nombre": "Islandia",
+              "capital": "Reikiavik",
+              "poblacion": 366000,
+              "PIB": 66944
+            },
+            {
+              "nombre": "Países Bajos",
+              "capital": "Ámsterdam",
+              "poblacion": 17000000,
+              "PIB": 59616
+            },
+            {
+              "nombre": "Suecia",
+              "capital": "Estocolmo",
+              "poblacion": 10000000,
+              "PIB": 58921
+            },
+            {
+              "nombre": "Alemania",
+              "capital": "Berlín",
+              "poblacion": 83000000,
+              "PIB": 57530
+            },
+            {
+              "nombre": "Finlandia",
+              "capital": "Helsinki",
+              "poblacion": 55000000,
+              "PIB": 55806
+            }
+          ]
+        },
+        {
+          "nombre": "Asia",
+          "pais": [
+            {
+              "nombre": "Singapur",
+              "capital": "Singapur",
+              "poblacion": 56000000,
+              "PIB": 101376
+            },
+            {
+              "nombre": "Catar",
+              "capital": "Doha",
+              "poblacion": 28000000,
+              "PIB": 93508
+            },
+            {
+              "nombre": "Emiratos Árabes Unidos",
+              "capital": "Abu Dabi",
+              "poblacion": 99000000,
+              "PIB": 63590
+            },
+            {
+              "nombre": "Brunei",
+              "capital": "Bandar Seri Begawan",
+              "poblacion": 437000,
+              "PIB": 62371
+            },
+            {
+              "nombre": "Kuwait",
+              "capital": "Ciudad de Kuwait",
+              "poblacion": 43000000,
+              "PIB": 51960
+            },
+            {
+              "nombre": "Israel",
+              "capital": "Jerusalén",
+              "poblacion": 92000000,
+              "PIB": 51430
+            },
+            {
+              "nombre": "Corea del Sur",
+              "capital": "Seúl",
+              "poblacion": 51000000,
+              "PIB": 44292
+            },
+            {
+              "nombre": "Japón",
+              "capital": "Tokio",
+              "poblacion": 125000000,
+              "PIB": 42256
+            },
+            {
+              "nombre": "Taiwán",
+              "capital": "Taipéi",
+              "poblacion": 23000000,
+              "PIB": 41673
+            },
+            {
+              "nombre": "Arabia Saudita",
+              "capital": "Riad",
+              "poblacion": 35000000,
+              "PIB": 25731
+            }
+          ]
+        },
+        {
+          "nombre": "África",
+          "pais": [
+            {
+              "nombre": "Seychelles",
+              "capital": "Victoria",
+              "poblacion": 98000,
+              "PIB": 15600
+            },
+            {
+              "nombre": "Mauricio",
+              "capital": "Port Louis",
+              "poblacion": 13000000,
+              "PIB": 13500
+            },
+            {
+              "nombre": "Botswana",
+              "capital": "Gaborone",
+              "poblacion": 24000000,
+              "PIB": 7890
+            },
+            {
+              "nombre": "Gabón",
+              "capital": "Libreville",
+              "poblacion": 23000000,
+              "PIB": 7580
+            },
+            {
+              "nombre": "Sudáfrica",
+              "capital": "Pretoria",
+              "poblacion": 59000000,
+              "PIB": 6410
+            },
+            {
+              "nombre": "Namibia",
+              "capital": "Windhoek",
+              "poblacion": 25000000,
+              "PIB": 5800
+            },
+            {
+              "nombre": "Egipto",
+              "capital": "El Cairo",
+              "poblacion": 102000000,
+              "PIB": 4670
+            },
+            {
+              "nombre": "Ghana",
+              "capital": "Accra",
+              "poblacion": 31000000,
+              "PIB": 4200
+            },
+            {
+              "nombre": "Nigeria",
+              "capital": "Abuya",
+              "poblacion": 206000000,
+              "PIB": 3640
+            },
+            {
+              "nombre": "Marruecos",
+              "capital": "Rabat",
+              "poblacion": 37000000,
+              "PIB": 3450
+            }
+          ]
+        },
+        {
+          "nombre": "Oceanía",
+          "pais": [
+            {
+              "nombre": "Australia",
+              "capital": "Canberra",
+              "poblacion": 25000000,
+              "PIB": 64110
+            },
+            {
+              "nombre": "Nueva Zelanda",
+              "capital": "Wellington",
+              "poblacion": 5000000,
+              "PIB": 51000
+            },
+            {
+              "nombre": "Palau",
+              "capital": "Ngerulmud",
+              "poblacion": 18000,
+              "PIB": 12528
+            },
+            {
+              "nombre": "Fiyi",
+              "capital": "Suva",
+              "poblacion": 926000,
+              "PIB": 5820
+            },
+            {
+              "nombre": "Samoa",
+              "capital": "Apia",
+              "poblacion": 198000,
+              "PIB": 4210
+            },
+            {
+              "nombre": "Tonga",
+              "capital": "Nukualofa",
+              "poblacion": 105000,
+              "PIB": 4120
+            },
+            {
+              "nombre": "Islas Marshall",
+              "capital": "Majuro",
+              "poblacion": 59000,
+              "PIB": 3780
+            },
+            {
+              "nombre": "Vanuatu",
+              "capital": "Port Vila",
+              "poblacion": 59000,
+              "PIB": 3780
+            },
+            {
+              "nombre": "Micronesia",
+              "capital": "Palikir",
+              "poblacion": 115000,
+              "PIB": 3090
+            },
+            {
+                "nombre": "Papúa Nueva Guinea",
+                "capital": "Puerto Moresby",
+                "poblacion": 9000000,
+                "PIB": 2760
+            }
+            ]
+            }
+        ]
+    }
+}
