@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #2c3e50; /* Fondo oscuro con tonos cálidos y profesionales */
+    color: #ecf0f1; /* Texto claro para buen contraste */
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Contenedor de bienvenida */
+#bienvenida {
+    text-align: center;
+    padding: 40px;
+    background: linear-gradient(145deg, #6a98b8, #455d8e); /* Tonos de azul y morado inspirados en matemáticas */
+    color: #fff;
+    border-radius: 18px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.15), 0 10px 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 500px;
+    margin: 30px auto;
+}
+
+#bienvenida h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #ffe4b5; /* Tono más brillante para el texto del título */
+}
+
+#bienvenida p {
+    font-size: 1.15em;
+    margin-bottom: 20px;
+    color: #ffe4b5; /* Texto más brillante */
+}
+
+/* Contenedor de botones */
+#botonContainer {
+    padding: 20px;
+    background: #34495e; /* Fondo gris oscuro con matices cálidos */
+    border-radius: 18px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+    height: 60vh;
+    overflow-y: auto;
+}
+
+/* Botones principales */
+.boton {
+    display: block;
+    width: 90%;
+    padding: 14px;
+    margin: 10px auto;
+    font-size: 1.1em;
+    background: linear-gradient(135deg, #3a6ea5, #2f5078); /* Azul profundo matemático */
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    font-weight: bold;
+}
+
+.boton:hover {
+    background-color: #274a63; /* Oscuro matemático para hover */
+    transform: scale(1.07);
+}
+
+/* Pantallas de operaciones */
+.serie1, .serie2, .serie3 {
+    display: none;
+    background: #1fa4c6; /* Azul-cian brillante y atractivo */
+    padding: 25px;
+    margin-top: 20px;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    color: #ffffff; /* Asegurar texto claro y brillante */
+}
+
+/* Botones internos */
+button.cerrar,
+button.operacion {
+    background: linear-gradient(135deg, #6a4379, #563a66); /* Morado profundo */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background-color 0.3s;
+    font-size: 1em;
+}
+
+button.cerrar:hover,
+button.operacion:hover {
+    background-color: #452a53; /* Morado oscuro */
+}
+
+/* Inputs */
+input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background-color: #f9fafc; /* Fondo suave blanco grisáceo */
+    color: #333;
+}
+
+/* Botones de cálculo */
+input[type="button"] {
+    background: linear-gradient(135deg, #539e4e, #3c7c3a); /* Verde oscuro matemático */
+    color: white;
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="button"]:hover {
+    background-color: #2d5b27; /* Verde más oscuro para el hover */
+}
+
+/* Animación de entrada */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

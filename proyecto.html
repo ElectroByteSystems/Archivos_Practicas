@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="diseño_proyecto.css">
+<script src="controlador.js" type="module"></script>
+<script src="botones.js" type="module"></script>
+<html>
+<head>
+    <title>Series de Taylor</title>
+</head>
+<body>
+    <div id="bienvenida" class="pantalla">
+        <h1>Bienvenido a la calculadora de Series</h1>
+        <p>Elige una operación para empezar: </p>
+        <button class="boton" id="btnFuncionExponencial">Funcion Exponencial</button>
+        <button class="boton" id="btnLogaritmoNatural">Logaritmo Natural</button>
+        <button class="boton" id="btnSerieGeometrica">Serie Geometrica</button>
+        <button class="boton" id="btnSerieBinomial">Serie Binomial</button>
+        <button class="boton" id="btnSenX">Sen X</button>
+        <button class="boton" id="btnCosX">Cos X</button>
+        <button class="boton" id="btnArctan">Arctan X</button>
+        <button class="boton" id="btnArcsen">Arcsen X</button>
+        <button class="boton" id="btnArccos">Arccos X</button>
+        <button class="boton" id="btnsec">Sec X</button>
+        <button class="boton" id="btncsc">CSC</button>
+        <button class="boton" id="btnTan">Tan X</button>
+        <button class="boton" id="btnsenh">Seno hiperbólico</button>
+        <button class="boton" id="btnCH">Coseno hiperbólico</button>
+        <button class="boton" id="btnTH">Tangente Hiperbólica</button>
+        <button class="boton" id="btnASH">Arco seno hiperbólico</button>
+        <button class="boton" id="btnATH">Arco Tangente Hiperbólica</button>
+        <button class="boton" id="btnFWL">Función w de Lambert</button>
+    </div>
+    <section>
+        <article class="serie1" id="ExponencialModal">
+            <p>Funcion Exponencial</p>
+            <label for="v_x">Ingrese el valor de x: </label>
+            <input type="text" id="v_x">
+            <br>
+            <label for="v_t">Ingrese el numero de terminos: </label>
+            <input type="text" id="v_t">
+            <br>
+            <input type="button" value="Calcular" id="serie1detaylor" />
+            <br>
+            <label for="v_r1">valor</label>
+            <input type="text" id="v_r1" disabled>
+            <button class="cerrar">Pantalla de Inicio</button>
+        </article>
+        <article class="serie1" id="NaturalModal">
+            <p>Logaritmo natural</p>
+            <label for="v_x2">Ingrese el valor de x, deber estar dentro del rango de -1 a 1: </label>
+            <input type="text" id="v_x2">
+            <br>
+            <label for="v_t2">Ingrese la cantidad de terminos a calcular: </label>
+            <input type="text" id="v_t2">
+            <br>
+            <input type="button" value="Calcular" id="serie2detaylor" />
+            <br>
+            <label for="v_r2">valor</label>
+            <input type="text" id="v_r2" disabled>
+            <button class="cerrar">Pantalla de Inicio</button>
+        </article>
+        <article class="serie1" id="geometricaModal">
+            <p>Serie geometrica</p>
+            <label for="v_x3">Ingrese el valor de x, el valor debe de estar dentro del rango de -1 a 1: </label>
+            <input type="text" id="v_x3">
+            <br>
+            <label for="v_t3">Ingrese la cantidad de terminos a calcular: </label>
+            <input type="text" id="v_t3">
+            <br>
+            <label for="tipo">Ingrese el tipo: </label>
+            <input type="text" id="tipo">
+            <br>
+            <input type="button" value="Calcular" id="serie3detaylor" />
+            <br>
+            <label for="v_r3">valor</label>
+            <input type="text" id="v_r3" disabled>
+            <button class="cerrar">Pantalla de Inicio</button>
+        </article>
+        <article class="serie1" id="BinomialModal">
+            <p>Serie Binomial</p>
+            <label for="v_x4">Ingrese el valor de x, el valor debe ser ingresado dentro del rango de -1 a 1: </label>
+            <input type="text" id="v_x4">
+            <br>
+            <label for="v_t4">Ingrese la cantidad de terminos a calcular: </label>
+            <input type="text" id="v_t4">
+            <br>
+            <label for="alpha">Ingresa el valor de alpha: </label>
+            <input type="text" id="alpha">
+            <br>
+            <input type="button" value="Calcular" id="serie4detaylor" />
+            <br>
+            <label for="v_r4">valor</label>
+            <input type="text" id="v_r4" disabled>
+            <button class="cerrar">Pantalla de Inicio</button>
+        </article>
+            <article class="serie2" id="senModal">
+                <p>sen X</p>
+                <label for="x_sen">Ingresa el valor de x: </label>
+                <input type="text" id="x_sen">
+                <br>
+                <label for="t_sen">Ingresa la cantidad de terminos: </label>
+                <input type="text" id="t_sen">
+                <br>
+                <input type="button" value="Calcular" id="sen1" />
+                <br>
+                <label for="r_sen">valor</label>
+                <input type="text" id="r_sen" disabled>
+                <button class="cerrar">Pantalla de Inicio</button>
+            </article>
+            <article class="serie2" id="cosModal">
+                <p>cos x</p>
+                <label for="cos_x">Ingresa el valor de x: </label>
+                <input type="text" id="cos_x">
+                <br>
+                <label for="t_cos">Ingrese la cantidad de terminos: </label>
+                <input type="text" id="t_cos">
+                <br>
+                <input type="button" value="Calcular" id="cos1" />
+                <br>
+                <label for="r_cos">valor</label>
+                <input type="text" id="r_cos" disabled>
+                <button class="cerrar">Pantalla de Inicio</button>
+            </article>
+            <article class="serie2" id="arctanModal">
+                <p>arctan x</p>
+                <label for="tan_x">Ingrese el valor de x: </label>
+                <input type="text" id="tan_x">
+                <br>
+                <label for="t_tan">Ingrese la cantidad de terminos: </label>
+                <input type="text" id="t_tan">
+                <br>
+                <input type="button" value="Calcular" id="tan1" />
+                <br>
+                <label for="r_tan">valor</label>
+                <input type="text" id="r_tan" disabled>
+                <button class="cerrar">Pantalla de Inicio</button>
+            </article>
+            <article class="serie2" id="arcsenModal">
+                <p>arcsen x</p>
+                <label for="arsen_x">Ingrese el valor de x: </label>
+                <input type="text" id="arsen_x">
+                <br>
+                <label for="t_arsec">Ingrese la cantidad de terminos: </label>
+                <input type="text" id="t_arsec">
+                <br>
+                <input type="button" value="Calcular" id="arsec1" />
+                <br>
+                <label for="r_arsec">valor</label>
+                <input type="text" id="r_arsec" disabled>
+                <button class="cerrar">Pantalla de Inicio</button>
+            </article>
+            <article class="serie2" id="arccosModal">
+                <p>arccos</p>
+                <label for="arco_x">Ingrese el valor de x: </label>
+                <input type="text" id="arco_x">
+                <br>
+                <label for="t_arco">Ingrese la cantidad de terminos: </label>
+                <input type="text" id="t_arco">
+                <br>
+                <input type="button" value="Calcular" id="arco1" />
+                <br>
+                <label for="r_arco">valor</label>
+                <input type="text" id="r_arco" disabled>
+                <button class="cerrar">Pantalla de Inicio</button>
+            </article>
+            <article class="serie2" id="secModal">
+                <p>sec</p>
+                <label for="sec_x">Ingrese el valor de x: </label>
+                <input type="text" id="sec_x">
+                <br>
+                <label for="t_sec">Ingrese la cantidad de terminos: </label>
+                <input type="text" id="t_sec">
+                <br>
+                <input type="button" value="Calcular" id="sec1" />
+                <br>
+                <label for="r_sec">valor</label>
+                <input type="text" id="r_sec" disabled>
+                <button class="cerrar">Pantalla de Inicio</button>
+            </article>
+            <article class="serie2" id="cscModal">
+                <p>csc</p>
+                <label for="csc_x">Ingrese el valor de x: </label>
+                <input type="text" id="csc_x">
+                <br>
+                <label for="t_csc">Ingrese la cantidad de terminos: </label>
+                <input type="text" id="t_csc">
+                <br>
+                <input type="button" value="Calcular" id="csc1"/>
+                <br>
+                <label for="r_csc">valor</label>
+                <input type="text" id="r_csc" disabled>
+                <button class="cerrar">Pantalla de Inicio</button>
+            </article>
+            <article class="serie2" id="tanModal">
+                <p>Tan X</p>
+                <label for="tang_x">Ingrese el valor de x: </label>
+                <input type="text" id="tang_x">
+                <br>
+                <label for="t_tang_x">Ingrese la cantidad de terminos: </label>
+                <input type="text" id="t_tang_x">
+                <br>
+                <input type="button" value="Calcular" id="tang_x_b" />
+                <br>
+                <label for="r_tang_x">valor</label>
+                <input type="text" id="r_tang_x" disabled>
+                <button class="cerrar">Pantalla de Inicio</button>
+            </article>
+            <article class="serie3" id="senhModal">
+                <p>Seno hiperbólico (senh)</p>
+                <label for="x_sen_h">Ingresa el valor de x: </label>
+                <input type="text" id="x_sen_h">
+                <br>
+                <label for="t_sen_h">Ingrese la cantidad de terminos: </label>
+                <input type="text" id="t_sen_h">
+                <br>
+                <input type="button" value="Calcular" id="senh1" />  
+                <br>
+                <label for="r_sen_h">valor</label>
+                <input type="text" id="r_sen_h" disabled>   
+                <button class="cerrar">Pantalla de Inicio</button>
+            </article>
+            <article class="serie3" id="coshModal">
+                <p>Coseno hiperbólico</p>
+                <label for="x_cos_h">Ingrese el valor de x: </label>
+                <input type="text" id="x_cos_h">
+                <br>
+                <label for="t_cos_h">Ingrese la cantidad de terminos: </label>
+                <input type="text" id="t_cos_h">
+                <br>
+                <input type="button" value="Calcular" id="cosh1" />
+                <br>
+                <label for="r_cosh">valor</label>
+                <input type="text" id="r_cosh" disabled>
+                <button class="cerrar">Pantalla de Inicio</button>
+            </article>
+            <article class="serie3" id="tanhModal">
+                <p>Tangente Hiperbólica</p>
+                <label for="x_tan_h">Ingresa el valor de x: </label>
+                <input type="text" id="x_tan_h">
+                <br>
+                <label for="t_tan_h">Ingresa la cantidad de terminos: </label>
+                <input type="text" id="t_tan_h">
+                <br>
+                <input type="button" value="Calcular" id="tanh1" />
+                <br>
+                <label for="r_tanh">valor</label>
+                <input type="text" id="r_tanh" disabled>
+                <button class="cerrar">Pantalla de Inicio</button>
+            </article>
+            <article class="serie3" id="arcosenohModal">
+                <p>Arco seno hiperbólico</p>
+                <label for="x_arco_cos">Ingresa el valor de x: </label>
+                <input type="text" id="x_arco_cos">
+                <br>
+                <label for="t_arco_cos">Ingresa la cantidad de terminos: </label>
+                <input type="text" id="t_arco_cos">
+                <br>
+                <input type="button" value="Calcular" id="arcocos" />
+                <br>
+                <label for="r_arco_cos">valor</label>
+                <input type="text" id="r_arco_cos" disabled>
+                <button class="cerrar">Pantalla de Inicio</button>
+            </article>
+            <article class="serie3" id="arcotanModal">
+                <p>Arco Tangente Hiperbólica</p>
+                <label for="x_t_arco_h">Ingrese el valor de x, dentro del rango de -1 a 1: </label>
+                <input type="text" id="x_t_arco_h">
+                <br>
+                <label for="t_arco_h_t">Ingrese la cantidad de terminos: </label>
+                <input type="text" id="t_arco_h_t">
+                <br>
+                <input type="button" value="calcular" id="tan_arco_h" />
+                <br>
+                <label for="r_arco_h">valor</label>
+                <input type="text" id="r_arco_h" disabled>
+                <button class="cerrar">Pantalla de Inicio</button>
+            </article>
+        <article class="serie4" id="wlamModal">
+            <p>Función w de Lambert</p>
+            <label for="x_lambert">Ingrese al valor de x: </label>
+            <input type="text" id="x_lambert">
+            <br>
+            <label for="t_lambert">Ingrese la cantidad de terminos: </label>
+            <input type="text" id="t_lambert">
+            <br>
+            <input type="button" value="Calcular" id="b_lambert">
+            <br>
+            <label for="r_lambert">valor</label>
+            <input type="text" id="r_lambert" disabled> 
+            <button class="cerrar">Pantalla de Inicio</button>
+        </article>
+    </section>
+</body>
+</html>
